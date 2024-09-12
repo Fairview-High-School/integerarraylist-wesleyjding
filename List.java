@@ -7,8 +7,8 @@ public interface List<E> {
     public E get(int index);// (returns the value at position index, or throws a new IndexOutOfBoundsException)
     public int size();// (returns the number of items in the list.  -- NOT the capacity of the array, but the number of values intentionally placed in the list)
     public boolean isEmpty();//(returns true if .size() is 0)
-    public boolean contains(E val);// (returns true if the IntegerArrayList contains the given val, false otherwise)
-    public int indexOf(E val);// (returns the index of the first instance of val that appears in the IntegerArrayList, or -1 if it does not appear)
-    public boolean equals(List<E> other);// (returns true if this IntegerArrayList and the other IntegerArrayList have all of the same elements in the same order.
-    public String toString();// returns a nice representation of all of the elements in the IntegerArrayList with commons, and square brackets.
+    public boolean contains(E val);// (returns true if the ArrayList contains the given val, false otherwise)
+    public int indexOf(E val);// (returns the index of the first instance of val that appears in the ArrayList, or -1 if it does not appear)
+    public boolean equals(List<E> other);// (returns true if this ArrayList and the other ArrayList have all of the same elements in the same order.
+    public String toString();// returns a nice representation of all of the elements in the ArrayList with commons, and square brackets.
 }
